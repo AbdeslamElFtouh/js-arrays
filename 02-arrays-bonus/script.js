@@ -17,6 +17,15 @@ console.log(teachers);
 // con un nome di lunghezza maggiore o uguale a 5 caratteri
 const longNames = null;
 
+for (let i = 0; i < teachers.length; i++) {
+
+    const current_teacher = teachers[i];
+
+    if (current_teacher.length >= 5) {
+        console.log(current_teacher);
+    }
+}
+
 // 3. Rimuovi 'Ed' dall'array teachers
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
